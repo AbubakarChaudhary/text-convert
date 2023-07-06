@@ -9,8 +9,7 @@ import React from "react";
 import {
   BrowserRouter as Router,
   Routes,
-  Route,
-  Link
+  Route
 } from "react-router-dom";
 
 function App() {
@@ -46,7 +45,7 @@ function App() {
   return (
     <>
   <Router>
-     <Navbar title="MyApp" mode={mode} toggleMode={toggleMode} textColor={textColor}/>
+     <Navbar title="Text Converter" mode={mode} toggleMode={toggleMode} textColor={textColor}/>
      <Alert alert={alert}/>
 
     <div className="container my-3">
